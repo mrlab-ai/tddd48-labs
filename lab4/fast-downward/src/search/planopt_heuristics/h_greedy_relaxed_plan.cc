@@ -13,8 +13,8 @@ GreedyRelaxedPlanHeuristic::GreedyRelaxedPlanHeuristic(const options::Options &o
 
 int GreedyRelaxedPlanHeuristic::compute_heuristic(const State &ancestor_state) {
     State state = convert_ancestor_state(ancestor_state);
-    
-    // add your implementation of exercise 5.4 a) here
+
+    // Add your implementation here. Return DEAD_END if the heuristic value is infinite.
     return 1;
 }
 
