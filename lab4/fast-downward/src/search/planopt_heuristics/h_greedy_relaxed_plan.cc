@@ -14,7 +14,13 @@ GreedyRelaxedPlanHeuristic::GreedyRelaxedPlanHeuristic(const options::Options &o
 int GreedyRelaxedPlanHeuristic::compute_heuristic(const State &ancestor_state) {
     State state = convert_ancestor_state(ancestor_state);
 
-    // Add your implementation here. Return DEAD_END if the heuristic value is infinite.
+    /*
+      Add your implementation here. Return DEAD_END if the heuristic value is infinite.
+      The first step should be to convert the non-relaxed anvestor_state to a relaxed state.
+      You can do this by calling the RelaxedTask::translate_state() method.
+    */
+
+
     return 1;
 }
 
