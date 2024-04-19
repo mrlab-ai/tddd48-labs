@@ -55,7 +55,7 @@ class BDDSearch(object):
 
         # Note that the task is in STRIPS, so the formula for
         # the transition relation can be simplified to the conjunction
-        # of the following formulas:
+        # over the following conjunctions:
         #   {v | v in op.preconditions}
         #   {v' | v in op.add_effects}
         #   {not v' | v in op.del_effects \ op.add_effects}
